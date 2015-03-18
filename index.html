@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Kanye Bracket</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <div id="lightbox-overlay" style="display: none;"></div>
+        <div id="basic-lightbox" style="display: none;">
+            <div class="close-btn"><img src="img/close-button.png" width="35px" height="35px" />
+            </div>
+            <div class="pop-content"></div>
+        </div>
+        <div id="bracket-full" class="bracket visible">
+           <img src="img/round-one/Yeezy-Bracket-Round-1.png" usemap="#full-map" />
+           <map name="full-map">
+                <area shape="rect" coords="15, 8, 183, 84" href="#soul-resurgence" alt="Soul Resurgence">
+                <area shape="rect" coords="1133, 8, 1254, 84" href="#yeezy-season" alt="Yeezy Season">
+                <area shape="rect" coords="15, 740, 183, 816" href="#stadium-status" alt="Yeezy Season">
+                <area shape="rect" coords="1133, 740, 1254, 816" href="#essence-festival" alt="Yeezy Season">
+            </map>
+        </div>
+
+        <div id="bracket-essence" class="bracket hidden">
+            <img src="img/round-one/Yeezy-Bracket_Essence-Festival-New-Round-1.png" usemap="#essence-map" />
+            <map name="essence-map">
+                <area shape="rect" coords="968, 650, 1230, 804" href="#" alt="Home">
+            </map>
+        </div>
+        <div id="bracket-stadium" class="bracket hidden">
+            <img src="img/round-one/Yeezy-Bracket_Stadium-Status-Round-1.png" usemap="#stadium-map" />
+            <map name="stadium-map">
+                 <area shape="rect" coords="32, 650, 316, 802" href="#" alt="Home">
+            </map>
+        </div>
+        <div id="bracket-season" class="bracket hidden">
+            <img src="img/round-one/Yeezy-Bracket_Yeezy-Season_Round-1.png" usemap="#yeezy-map" />
+            <map name="yeezy-map">
+                <area shape="rect" coords="989, 21, 1226, 165" href="#" alt="Home">
+            </map>
+        </div>
+        <div id="bracket-resurgence" class="bracket hidden">
+            <img src="img/round-one/Yeezy-Bracket_Soul-Resurgence_Round 1.png" usemap="#resurgence-map" />
+            <map name="resurgence-map">
+                <area shape="rect" coords="32, 16, 366, 164" href="#" alt="Home">
+            </map>
+        </div>
+        <!-- Final Four page hidden till third week -->
+        <!-- <div id="bracket-finalfour" class="bracket hidden">
+            <img src="img/round-one/Yeezy-Bracket_Final_Four_Round-1.png" />
+            <map name="finalfour-map">
+
+            </map>
+        </div> -->
+        <script src="js/jquery.js"></script>
+        <script src="data/annotations.js"></script>
+        <script src="js/signals.js"></script>
+        <script src="js/hasher.js"></script>
+        <script src="js/crossroads.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
