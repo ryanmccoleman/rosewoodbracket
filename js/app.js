@@ -13,8 +13,9 @@ $(document).ready(function() {
 		dataCollection: AnnotationData
 	});
 
-	$(".matcharea").click(function() {
+	$(".matcharea").click(function(e) {
 		annclass.showAnnotation($(this).attr("matchid"));
+		e.preventDefault();
 	});
     $(".close-btn").on("click", function () {
         annclass.closeLightBox();   
@@ -22,49 +23,56 @@ $(document).ready(function() {
     $("#lightbox-overlay").on("click", function () {
         annclass.closeLightBox();   
     });
+    annclass.showIntroImage();
 
 }); 
 
 AnnotationClass.prototype = {
-dataCollection: null,
+	dataCollection: null,
 
-init: function init() {
-	this.createMatchImgMaps();
-},
-createMatchImgMaps: function() {
-	for(var i=0; i< this.dataCollection.length;i++) {
-		for(var v=0; v< this.dataCollection[i].maps.length;v++) {
-			this.makeImageMapArea(this.dataCollection[i].maps[v].imagemap, this.dataCollection[i].maps[v].coords, this.dataCollection[i].matchid);
+	init: function init() {
+		this.createMatchImgMaps();
+	},
+	showIntroImage: function() {
+		this.openLightBox();
+		$(".basic-lightbox").removeClass("light-border");
+		var bearimage = "<img src=\"img/Rosewood-Site-Instructions.png\" />";
+		$(".pop-content").append(bearimage);
+	},
+	createMatchImgMaps: function() {
+		for(var i=0; i< this.dataCollection.length;i++) {
+			for(var v=0; v< this.dataCollection[i].maps.length;v++) {
+				this.makeImageMapArea(this.dataCollection[i].maps[v].imagemap, this.dataCollection[i].maps[v].coords, this.dataCollection[i].matchid);
+			}
 		}
-	}
-},
-makeImageMapArea: function(map, coords, matchid) {
-	var maparea = "<area class=\"matcharea\" shape=\"rect\" coords=\""+coords+"\" matchid=\""+matchid+"\">";
-	$("map[name=\""+map+"-map\"]").append(maparea);
-},
-showAnnotation: function(matchid) {
-	this.openLightBox();
-	var annotElem = "<h2>"+this.getMatchObj(matchid).title+"</h2>"+this.getMatchObj(matchid).text;
-	$(".pop-content").empty().append(annotElem);
+	},
+	makeImageMapArea: function(map, coords, matchid) {
+		var maparea = "<area href=\"\"class=\"matcharea\" shape=\"rect\" coords=\""+coords+"\" matchid=\""+matchid+"\">";
+		$("map[name=\""+map+"-map\"]").append(maparea);
+	},
+	showAnnotation: function(matchid) {
+		this.openLightBox();
+		var annotElem = "<h2>"+this.getMatchObj(matchid).title+"</h2>"+this.getMatchObj(matchid).text;
+		$(".pop-content").empty().append(annotElem);
 
-},
-getMatchObj: function(matchid) {
-	for(var i=0; i<this.dataCollection.length;i++) {
-		if(matchid == this.dataCollection[i].matchid) {
-			return this.dataCollection[i];
+	},
+	getMatchObj: function(matchid) {
+		for(var i=0; i<this.dataCollection.length;i++) {
+			if(matchid == this.dataCollection[i].matchid) {
+				return this.dataCollection[i];
+			}
 		}
-	}
-},
-openLightBox: function() {
-    $("#lightbox-overlay").show();
-    $("#basic-lightbox").show();
- },
+	},
+	openLightBox: function() {
+	    $("#lightbox-overlay").show();
+	    $("#basic-lightbox").show();
+	 },
 
-closeLightBox: function() {
-    $("#basic-lightbox").hide();
-    $("#lightbox-overlay").hide();
-    $(".pop-content").empty()
- }
+	closeLightBox: function() {
+	    $("#basic-lightbox").hide().addClass("light-border");
+	    $("#lightbox-overlay").hide();
+	    $(".pop-content").empty()
+	 }
 };
 	
 function AnnotationClass(obj) {

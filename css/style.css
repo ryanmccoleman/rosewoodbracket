@@ -1,6 +1,7 @@
 body {
 	background-color: #000000;
 }
+
 .hidden {
 	display: none;
 }
@@ -26,25 +27,30 @@ area {
   position: fixed;
   text-align: center;
   top: 10%;
-  border: 10px solid white;
   left: 50%;
-  margin-left: -426px;
+  margin-left: -275px;
   z-index: 1000;
-  width: 850px;
-  max-height: 500px;
+  width: 550px;
   color: #fff;
+}
+
+.light-border {
+	border: 10px solid white;
 }
 
 .pop-content {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow: scroll;
   padding: 10px 25px 10px 33px;
   text-align: left;
   line-height: 125%;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 12px;
 }
 
 .pop-content h2 {
-	text-align: center;
+	text-align: left;
+	text-transform: uppercase;
 }
 
 #lightbox-overlay {

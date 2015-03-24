@@ -1,9 +1,10 @@
 // imagemaps: full, yeezy, stadium, essence, resurgence, finalfour
 var AnnotationData = (function() {
 	var annarray = [ 
+
 			{
 				matchid: 1,
-				title: "Jesus Walks vs Addiction",
+				title: "Jesus Walks (1) vs Addiction (16)",
 				round: 1,
 				maps: [
 					{coords: "38, 96, 142, 122", imagemap: "full"},
@@ -13,17 +14,17 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 2,
-				title: "Diamond Remix vs New Workout Plan",
+				title: "Diamond Remix (8) vs New Workout Plan (9)",
 				round: 1,
 				maps: [
 					{coords: "38, 133, 142, 164", imagemap: "full"},
 					{coords: "79, 269, 281, 327", imagemap: "resurgence"},
 				],
-				text: "<p>Waiting on Content</p>"
+				text: "<p>This isn't an easy call. \"Diamonds\" is one of Kanye's most politically overt and powerful songs. That said, \"New Workout Plan\" is too easily dismissed as some gag throwaway song, which overlooks its sly political tone. (Plus, it's a banger. I mean, I've been listening to it on the elliptical for a decade now.) </P><p>Kanye's said before that he wrote the track knowing women—and, let's be honest, many men—listen to his music at the gym. Riffing on that, he made what's one of the best high parodies of the pressures to be the ideal of the \"video girl.\" Should this sound like an apology for a song that encourages women to \"give head, stop breathe, get up, check your weave,\" take a look at the music video. Not only is it remarkably playful and cartoon-like in tone, it features a bit with Tracee Ellis Ross playing a Parisian woman lauding the power of Kanye’s workout tapes. In acting the part of the video girl, she draws attention to this figure, meaning the whole music video, and the song, becomes about what this objectified role means. (Not to mention that the \"New Workout Plan\" video stars Anna Nicole Smith, RIP, the mid-2000s paradigm of mainstream white hetero female hotness.) Then there's looking at the song in the context of Kanye's partnership with Kim Kardashian: an idealized feminine beauty but one with economic and cultural clout that rivals Yeezus' own. Given how Kim K rose to fame (read: sex tape), she's the video girl who became bigger than the video itself and created a new entity: Kimye. Look, I could go on for days. \"New Workout Plan\" for the cultural win. \"Diamonds from Sierra Leone\" for the actual win. </p> <p> - Kiva Reardon </p>"
 			},
 			{
 				matchid: 3,
-				title: "All Falls Down vs Spaceship",
+				title: "All Falls Down (5) vs Spaceship (12)",
 				round: 1,
 				maps: [
 					{coords: "38, 170, 142, 200", imagemap: "full"},
@@ -33,7 +34,7 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 4,
-				title: "Heard 'Em Say vs Gone",
+				title: "Heard 'Em Say (4) vs Gone (13)",
 				round: 1,
 				maps: [
 					{coords: "38, 207, 142, 237", imagemap: "full"},
@@ -43,7 +44,7 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 5,
-				title: "Touch the Sky vs We Don't Care",
+				title: "Touch the Sky (6) vs We Don't Care (11)",
 				round: 1,
 				maps: [
 					{coords: "38, 244, 142, 274", imagemap: "full"},
@@ -53,17 +54,17 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 6,
-				title: "Through the Wire vs Family Business",
+				title: "Through the Wire (3) vs Family Business (14)",
 				round: 1,
 				maps: [
 					{coords: "38, 281, 142, 314", imagemap: "full"},
 					{coords: "79, 573, 281, 628", imagemap: "resurgence"},
 				],
-				text: "<p>Content Needed here</p>"
+				text: "<p>Since deciding to share this bracket with the world, one of the thoughts that's continually plagued me has been our decision to knock \"Through the Wire\" out in the first round. As Kanye’s first hit single, \"Through the Wire\"’s greatest legacy is that it was an introduction to a sense of urgency that would come to define so much of Kanye's catalog thereafter. Kanye has never stopped creating like he might die tomorrow, and has never stopped celebrating the fact that he's here today, and \“Through the Wire\” is the perfect juncture of these themes. As important as this idea would become to Kanye's sound over the years, and as immortal as \"a boost for breakfast, an Ensure of dizzert\" is as a line, it's hard to top Kanye talking about his family. In the vast canon of vulnerable-Kanye songs, his \"family songs\" are the ones in which he’s most relatable (\"Roses,\" \"Hey Mama,\" \"Only One\") and \"Family Business\" is best-in-class. I challenge anyone to find a better verse about family dynamics, in the whole history of hip hop, than the second verse of \"Family Business,\" ending with the incredible five-line punch: \"Got roaches at their crib like them your first cousins, Act like you ain't took a bath with your cousins, Fit three in the bed while six of y'all, I'm talkin' 'bout three by the head and three by the leg, But you ain't have to tell my girl I used to pee in the bed.\"</p> <p> - Sal Patel </p>"
 			},
 			{
 				matchid: 7,
-				title: "Slow Jamz vs Hey Mama",
+				title: "Slow Jamz (7) vs Hey Mama (10)",
 				round: 1,
 				maps: [
 					{coords: "38, 318, 142, 353", imagemap: "full"},
@@ -73,7 +74,7 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 8,
-				title: "Gold Digger vs Last Call",
+				title: "Gold Digger (2) vs Last Call (15)",
 				round: 1,
 				maps: [
 					{coords: "38, 355, 142, 391", imagemap: "full"},
@@ -83,7 +84,7 @@ var AnnotationData = (function() {
 			},	
 			{
 				matchid: 9,
-				title: "Stronger vs Coldest Winter",
+				title: "Stronger (1) vs Coldest Winter (16)",
 				round: 1,
 				maps: [
 					{coords: "38, 437, 142, 465", imagemap: "full"},
@@ -93,7 +94,7 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 10,
-				title: "Everything I am vs Amazing",
+				title: "Everything I am (8) vs Amazing (9)",
 				round: 1,
 				maps: [
 					{coords: "38, 474, 142, 503", imagemap: "full"},
@@ -103,7 +104,7 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 11,
-				title: "Can't Tell Me Nothing vs Good Morning",
+				title: "Can't Tell Me Nothing (5) vs Good Morning (12)",
 				round: 1,
 				maps: [
 					{coords: "38, 511, 142, 542", imagemap: "full"},
@@ -113,27 +114,27 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 12,
-				title: "Heartless vs I Wonder",
+				title: "Heartless (4) vs I Wonder (13)",
 				round: 1,
 				maps: [
 					{coords: "38, 548, 142, 578", imagemap: "full"},
 					{coords: "77, 212, 285, 341", imagemap: "stadium"},
 				],
-				text: "<p>Content Missing</p>"
+				text: "<p>Yeezy's stadium-rock-inspired \"I Wonder\" begins with the staccato recitation of \"I've been waiting on this my whole life.\" Conjuring an audience of thousands, this joint is at once expansive and deeply pensive. Kanye's rumination on success acts as a rallying cry; this is a 17-year-old kid knowing his immense capacity and dreaming of a scholarship that will take him somewhere better. This is the producer spending hours grinding in the studio creating the banger that will rip the dance floor apart and change her world. Here, our boy Yeezy is at his most hopeful and most earnest. Here, Yeezy is that student, is that producer, and his storied life becomes the end result of untold hours of blood and sweat made glossy and perfect by the glow of stadium lights. </p><p>”Heartless,” however, is comparably more doleful. Equating the woman who broke his heart to a Mike Myers character with the line \"How could you be so Dr. Evil,\" this is Yeezy at his maudlin-finest, auto-tuned to the point where he is able to divorce himself from his heartbreak. But robots cry too, man, and “Heartless” reads like Wall-E from South Side Chicago, hood as hell, yet strangely vulnerable in the boldness of its sorrow. Everyone appreciates a weeping automaton, but this match-up goes to the Kanye whose dreams outpace his reality, for the time being. </p> <p> - Rob Kraszewski </p>"
 			},
 			{
 				matchid: 13,
-				title: "Love Lockdown vs Champion",
+				title: "Love Lockdown (6) vs Champion (11)",
 				round: 1,
 				maps: [
 					{coords: "38, 585, 142, 616", imagemap: "full"},
 					{coords: "77, 266, 285, 416", imagemap: "stadium"},
 				],
-				text: "<p>\"Champion\" is the most Kanye song of all time. Tell me, what’s more Kanye than Kanye basking in the glow of his successes and talking about black people and America, with shout-outs to shopping and Lauryn Hill (don’t worry Lauryn, Ye’s got this)? All this, over a chopped-up vocal sample from STEELY DAN’S \"Kid Charlemagne,\" a song named after a king who is credited with not only getting modern France and Germany started but also uniting most of Western Europe? Who else but Ye would fancy themselves the King Charlemagne of rap? With this in mind, turn on \"Love Lockdown\" and take solace in learning that even King Charlemagne gets his heart stomped on. This is a pre-Kim universe, where Ye has captured that sterile, colourless world of heartbreak. He’s too despondent to rap. He’s gotta turn to auto-tune, and layer his mechanized self overtop a menacing heartbeat/drumbeat. And those elephant trumpets at the end...It’s watching Ye’s fall from being the champion to an angst-ridden teenager that makes \"Love Lockdown\" the superior track.</p> <p> - Kyle Fulton </p>"
+				text: "<p>\"Champion\" is the most Kanye song of all time. Tell me, what’s more Kanye than Kanye basking in the glow of his successes and talking about black people and America, with shout-outs to shopping and Lauryn Hill (don’t worry Lauryn, Ye’s got this)? All this, over a chopped-up vocal sample from STEELY DAN’S \"Kid Charlemagne,\" a song named after a king who is credited with not only getting modern France and Germany started but also uniting most of Western Europe? Who else but Ye would fancy themselves the King Charlemagne of rap? With this in mind, turn on \"Love Lockdown\" and take solace in learning that even King Charlemagne gets his heart stomped on. This is a pre-Kim universe, where Ye has captured that sterile, colourless world of heartbreak. He’s too despondent to rap. He’s gotta turn to auto-tune, and layer his mechanized self overtop a menacing heartbeat/drumbeat. And those elephant trumpets at the end...It’s watching Ye’s fall from being the champion to an angst-ridden teenager that makes \"Love Lockdown\" the superior track.</p> <p> - Alice Carr Blackwell</p>"
 			},
 			{
 				matchid: 14,
-				title: "Flashing Lights vs Streetlights",
+				title: "Flashing Lights (3) vs Streetlights (14)",
 				round: 1,
 				maps: [
 					{coords: "38, 622, 142, 655", imagemap: "full"},
@@ -143,7 +144,7 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 15,
-				title: "Say You Will vs Paranoid",
+				title: "Say You Wil (7) vs Paranoid (10)",
 				round: 1,
 				maps: [
 					{coords: "38, 659, 142, 690", imagemap: "full"},
@@ -153,7 +154,7 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 16,
-				title: "The Good Life vs The Glory",
+				title: "The Good Life (2) vs The Glory (15)",
 				round: 1,
 				maps: [
 					{coords: "38, 696, 142, 729", imagemap: "full"},
@@ -163,7 +164,7 @@ var AnnotationData = (function() {
 			},	
 			{
 				matchid: 17,
-				title: "Runaway vs Send it Up",
+				title: "Runaway (1) vs Send it Up (16)",
 				round: 1,
 				maps: [
 					{coords: "1140, 96, 1238, 125", imagemap: "full"},
@@ -173,7 +174,7 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 18,
-				title: "Lost in the World vs Dark Fantasy",
+				title: "Lost in the World (8) vs Dark Fantasy (9)",
 				round: 1,
 				maps: [
 					{coords: "1140, 133, 1238, 166", imagemap: "full"},
@@ -183,27 +184,27 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 19,
-				title: "Black Skinhead vs I'm in it",
+				title: "Black Skinhead (5) vs I'm in it (12)",
 				round: 1,
 				maps: [
 					{coords: "1140, 170, 1238, 204", imagemap: "full"},
 					{coords: "993, 345, 1200, 411", imagemap: "yeezy"},
 				],
-				text: "<p>Content needed</p>"
+				text: "<p>As the lead single from <em>Yeezus,</em>, \"Black Skinhead\" accomplished several things at once. Heralding the approach of Yeezy Season, it hinted at some of the coming album’s lyrical obsessions (racial politics, sex) while managing to convey something of its sonic aggression and experimental feel. It also didn’t sound out of place in a preview for a new Scorcese film. </p> <p>\"I’m In It\"’ may have seemed at first little more than a spartan preamble to the album’s massive centrepiece, \"Blood On The Leaves.\" But after living with <em>Yeezus</em> for a few weeks, \"I’m In It\" began to emerge as central to any understanding of <em>Yeezus’</em> bizarre inner logic, a kind of Rosetta Stone uniting the album’s twin poles of racial politics and sexual obsession. This is the song where the wires finally cross, to shocking effect (\"Black girl sippin’ white wine I put my fist in her like a civil rights sign\"). Featuring startling contributions from young producers (Arca, Evian Christ), this song may also be the most successful example to date of Kanye’s increasingly curatorial approach to production. \"My mind moves like a Tron bike,\" Kanye explains. \"Pop a wheelie on the zeitgeist.” \"I’m In It\" is the sound of a man making an impossibly smooth landing.</p> <p> - Rory Lavelle </p>"
 			},
 			{
 				matchid: 20,
-				title: "New Slave vs Gorgeous",
+				title: "New Slave (4) vs Gorgeous (13)",
 				round: 1,
 				maps: [
 					{coords: "1140, 207, 1238, 244", imagemap: "full"},
 					{coords: "993, 425, 1200, 488", imagemap: "yeezy"},
 				],
-				text: "<p>Content Needed</p>"
+				text: "<p>\"I’m ‘bout to air shit out,\" Kanye spits at the end of \"New Slaves,\" after spending four minutes tearing down the prison industrial complex, institutional racism in the fashion industry and basically anyone who’s spent time in the Hamptons. Mission well-accomplished. Three years earlier on \"Gorgeous,\" his flow was smooth as he exposed the way racism pervades American society and politics: \"I treat the cash the way the government treats AIDS/ I won’t be satisfied ‘til all my niggas get it.\" On \"New Slaves\" his tone is vicious and patience worn. It may be true that in 2013 the way Kanye experienced racism was at the hands of Nike executives but that doesn’t stop \"New Slaves\" from being a damning indictment on the state of race in America. \"New Slaves\" is the soundtrack to the reality that more African Americans are imprisoned today than were enslaved before Emancipation.</p> <p> - Mike Cranston </p>"
 			},
 			{
 				matchid: 21,
-				title: "Monster vs On Sight",
+				title: "Monster (6) vs On Sight (11)",
 				round: 1,
 				maps: [
 					{coords: "1140, 244, 1238, 282", imagemap: "full"},
@@ -213,7 +214,7 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 22,
-				title: "Power vs Blame Game",
+				title: "Power (3) vs Blame Game (14)",
 				round: 1,
 				maps: [
 					{coords: "1140, 281, 1238, 318", imagemap: "full"},
@@ -223,7 +224,7 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 23,
-				title: "Blood on the Leaves vs Bound 2",
+				title: "Blood on the Leaves (7) vs Bound 2 (10)",
 				round: 1,
 				maps: [
 					{coords: "1140, 318, 1238, 356", imagemap: "full"},
@@ -233,37 +234,37 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 24,
-				title: "All of the Lights vs So Appalled",
+				title: "All of the Lights (2) vs So Appalled (15)",
 				round: 1,
 				maps: [
 					{coords: "1140, 355, 1238, 395", imagemap: "full"},
 					{coords: "993, 745, 1200, 790", imagemap: "yeezy"},
 				],
-				text: "<p>Content missing</p>"
+				text: "<p>Here’s the problem with \"All of the Lights\"— it could never live up to it’s own hype. The highly anticipated MJ-tribute song was teased as a collaboration with over a dozen A-list contemporaries; the leaked <em>My Beautiful Dark Twisted Fantasy</em> tracklist revealed it would have its own Elton John-penned interlude; and the 90-second clip of it in the <em> Runaway</em> film comes with fireworks, a marching band and a larger-than-life piñata of Jackson’s head. This was going to be Kanye’s \"Thriller,\" we all thought. And then you listened to it, nestled at the mid-point of his most celebrated album to date, and thought, \"that’s it?\" *Kanye Shrug.* Strip away the pomp, and maybe I’d feel differently about this one, but the let-down felt as a true Kanye fan explains why the posse-cut-for-the-streets-joint on the same album takes this match-up. </p> <p> - Sal Patel </p>"
 			},	
 			{
 				matchid: 25,
-				title: "Mercy vs Improvise",
+				title: "Mercy (1) vs Improvise (16)",
 				round: 1,
 				maps: [
 					{coords: "1140, 437, 1238, 468", imagemap: "full"},
 					{coords: "987, 39, 1200, 109", imagemap: "essence"},
 				],
-				text: "<p>Content missing</p>"
+				text: "<p>Explaining how \"Improvise\" (also known as \"Apologize\") ended up in this bracket at all is probably more important than justifying its understandable loss to the juggernaut that is \"Mercy.\" Posterity reveals both songs to be important beginnings for aesthetic choices that we now know as typically-Ye: \"Mercy\” being the beginning of the Ye dance-hall-sample sound; and \"Improvise\” marking the first instance of Ye singing on record. </p> <p>\"Improvise\" is about as deep a cut as they get from Kanye’s oft-overlooked pre-<em>College Dropout</em> catalog. Built on an amazing Masqueraders sample, his version never saw the light of day after he sold the beat to Missy Elliott and Monica, for what would become the 2003 R&B chart-topper, \"Knock Knock.\” A shame too, because a fresh listen to \"Improvise\” proves it to be a precursor for 2008’s 808s & Heartbreaks and even 2015’s \"Only One.”</p> <p>Ultimately though, “Improvise” is a rough-cut, which simply can’t stand-up to the polish and grandeur of one of Kanye’s all-time great club bangers. </p> <p> - Sal Patel </p>"
 			},
 			{
 				matchid: 26,
-				title: "The Joy vs Lord, Lord, Lord",
+				title: "The Joy (8) vs Lord, Lord, Lord (9)",
 				round: 1,
 				maps: [
 					{coords: "1140, 474, 1238, 506", imagemap: "full"},
 					{coords: "987, 116, 1200, 180", imagemap: "essence"},
 				],
-				text: "<p>Content Missing</p>"
+				text: "<p>Both \"Lord, Lord, Lord\" and \"The Joy\" would have been perfect additions to <em>A Good Ass Job</em>, Kanye's long-rumoured, ultimately unrealized, follow-up up to <em>808's and Heartbreak</em>.They are simply too good to exist as bonus tracks, but at the same time would have been horribly out of place on My Beautiful Dark Twisted Fantasy, so lets all be weird like me, and play the hypothetical album game.</p><p>On first listen \"The Joy\" seems to have everything going for it: Pete Rock reminds you why he's on the producers Mt. Rushmore (along with Dre, Dilla, and RZA), contributing a near perfect beat that drunkenly stumbles throughout the open space, while Ye and Jay (perhaps delivering his best verse since <em>The Black Album</em>) spit flames at their convenience, never reaching beyond the capacity of the production. It's this restraint that gives the song its wistful charm, but also creates limitations that Kanye rarely inhibits himself with. And while \"The Joy\" exhorts the benefits of moderation, \"Lord, Lord Lord\" embraces how comfortable over-indulgence can feel with the right group of friends. I definitely see the appeal of staying in and getting nostalgic with your big brother, but in this case, the FOMO on a bro's night out can't be denied.</p> <p> - Kyle Fulton </p>"
 			},
 			{
 				matchid: 27,
-				title: "No Church in the Wild vs Christian Dior Denim Flow",
+				title: "No Church in the Wild (5) vs Christian Dior Denim Flow (12)",
 				round: 1,
 				maps: [
 					{coords: "1140, 511, 1238, 543", imagemap: "full"},
@@ -273,17 +274,17 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 28,
-				title: "Clique vs Impossible",
+				title: "Clique (4) vs Impossible (13)",
 				round: 1,
 				maps: [
 					{coords: "1140, 548, 1238, 581", imagemap: "full"},
 					{coords: "987, 270, 1200, 332", imagemap: "essence"},
 				],
-				text: "<p>Content is Missing</p>"
+				text: "<p>I love the esoteric nature of this match-up. Two archetypal yet often forgotten songs from their respective eras going up against each other. On “Impossible,” Kanye is at his most maximal, using all his old tricks from the <em>Late Registration</em> sessions: layered samples, a bevy of back-up vocalists, pounding taiko drums, a swelling horn-section, and so much more. The song is beautifully textured, and feels custom-tailored to Twista’s machine-gun flow. “Clique,” on the other hand, has Ye leaning on his <em>Watch the Throne</em> repertoire, using the kind of gothic choir samples that filled stadiums with “H.A.M,” and a beat which nicely recalls “Niggas in Paris”’ dirty bounce, thanks to Hit Boy. The crowning achievement of “Clique” though, is Kanye’s verse, which manages to name drop and stunt on CIA-director George Tenet, reference Kim’s humble (porn) beginnings, and reflect on the ongoing woes of his mother’s passing, all in the span of 80 seconds. While “Clique” ultimately wins this one, the bigger marvel is that the same man produced both disparate tracks, six years apart. </p> <p> - Sal Patel </p>"
 			},
 			{
 				matchid: 29,
-				title: "Murder to Excellence vs White Dress",
+				title: "Murder to Excellence (6) vs White Dress (11)",
 				round: 1,
 				maps: [
 					{coords: "1140, 585, 1238, 618", imagemap: "full"},
@@ -293,7 +294,7 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 30,
-				title: "Otis vs Home",
+				title: "Otis (3) vs Home (14)",
 				round: 1,
 				maps: [
 					{coords: "1140, 622, 1238, 657", imagemap: "full"},
@@ -303,7 +304,7 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 31,
-				title: "Chain Heavy vs Late",
+				title: "Chain Heavy (7) vs Late (10)",
 				round: 1,
 				maps: [
 					{coords: "1140, 659, 1238, 694", imagemap: "full"},
@@ -313,14 +314,176 @@ var AnnotationData = (function() {
 			},
 			{
 				matchid: 32,
-				title: "Niggas in Paris vs My Way",
+				title: "Niggas in Paris (2) vs My Way (15)",
 				round: 1,
 				maps: [
 					{coords: "1140, 696, 1238, 730", imagemap: "full"},
 					{coords: "987, 578, 1200, 626", imagemap: "essence"},
 				],
-				text: "<p>Content is needed</p>"
-			},	
+				text: "<p>Jay Z and Kanye turned an album highlight into a global anthem by shoving it down our throats—up to 10 fucking times a night. “Niggas in Paris,” the song where commercial excess meets Parisian art, upped the ante until they were playing it for 30 minutes a night on the <em>Watch the Throne</em> tour. This extravagance is well-suited to the song that celebrates Jay and Ye’s cocksure status in the one percent. But “Niggas in Paris” is more than just materialistic bragging and meme-worthy lines; it’s also representative of the double-consciousness that permeates Kanye’s best work. Two rich African-Americans getting fucked up in France? They know how this looks to their detractors in white America. But if you went from the Brooklyn (Jay) and Chicago (Ye) projects to French runway, you’d be in Paris getting fucked up too.</p> <p> - Mike Cranston </p>"
+			},
+						{
+				matchid: 33,
+				title: "Jesus Walks (1) vs Diamonds Remix (8)",
+				round: 2,
+				maps: [
+					{coords: "201,104,266,155", imagemap: "full"},
+					{coords: "400,197,533,323", imagemap: "resurgence"},
+				],
+				text: "<p>Performing Jesus Walks” last month on SNL’s 40th Anniversary Special, Kanye adopted a prone position and rapped some lines he wrote over a decade ago: try to catch it/it’s kinda hard/getting choked by detectives/harassed and arrested.” The exaggerated gasps in between made for a (literally) breathtaking moment, and a reminder of how, circa <em>The College Dropout</em>, Kanye’s self-absorption belied a social conscience. On Diamonds From Sierra Leone,” he doubles down on the seriousness—little is known of Sierra Leone/and how it connects to the diamonds we own”— and while the remix is lushly and brilliantly produced and adorned by one of Jay-Z’s best-ever guest verses (making it a kind of unofficial prequel to Watch the Throne) the mix of sociology and braggadocio feels slightly off.</p> <p> - Adam Nayman </p>"
+			},
+						{
+				matchid: 34,
+				title: "All Falls Down (5) vs Gone (13)",
+				round: 2,
+				maps: [
+					{coords: "201,177,266,225", imagemap: "full"},
+					{coords: "400,349,533,467", imagemap: "resurgence"},
+				],
+				text: "<p>This has to be considered a bit of an upset: “All Falls Down” was a massive radio hit, while “Gone” is buried all the way at the back of <em>Late Registration</em>. It’s worth remembering that the acoustic guitar underlay of “All Falls Down” was unusual for commercial hip-hop in 2004, while “Gone” leans faithfully on an Otis Redding sample. And yet while “All Falls Down” is catchier and more striking as a statement of musical purpose—and funnier, peaking with the immortal “couldn’t afford a car/so she named her daughter Alexis”—“Gone” is too beautifully measured and richly melodic to deny: a stealth contender for Kanye’s most perfectly realized track overall.</p> <p> - Adam Nayman </p>"
+			},
+						{
+				matchid: 35,
+				title: "We Don’t Care (11) vs Family Business (14)",
+				round: 2,
+				maps: [
+					{coords: "201,254,266,305", imagemap: "full"},
+					{coords: "400,503,533,620", imagemap: "resurgence"},
+				],
+				text: "<p>The elegiac tone of “Family Business” is Kanye at his most sentimental: the treated refrain of “all that glitters is not gold” is meant to signify hard-won wisdom. But warmth and nostalgia aren’t necessarily the best look for an artist whose not-so-secret weapon has always been a sense of humour, and “We Don’t Care” is arguably his funniest song ever—framed as a disastrous commencement address, it advises the graduating class to survive by any means necessary (“stack your money ‘til it gets sky-high”) and brings in a children’s chorus to echo the dog-eat-dog sentiment (“we weren’t supposed to make it past twenty-five/joke’s on you, we’re still alive.”) This is sly, wicked, subversive hip-hop that demolishes and affirms in the same giggling breath—a twinned hymn to materialism and contingency that also establishes the character of Kanye the iconoclast— one track into his career, and he’s already getting booed offstage.</p> <p> - Adam Nayman </p>"
+			},
+						{
+				matchid: 36,
+				title: "Slow Jamz (7) vs Last Call (15)",
+				round: 2,
+				maps: [
+					{coords: "201,333,266,381", imagemap: "full"},
+					{coords: "400,662,533,769", imagemap: "resurgence"},
+				],
+				text: "<p>“Slow Jamz” refreshes that classic intersection of hip-hop and R&B which, at the time, was desperately in need of a paving job. And what better way to revitalize a well-travelled road than with a nod to the past? From a slew of R&B legend name-drops to a Luther Vandross sample, “Slow Jamz” pays homage to its roots with considerable class. Chicago rapper Twista adds a fresh burst of energy with his trademark fast-paced machine gun flow, further cementing its status as one of the better songs to be found at the hip-hop/R&B junction. Unfortunately, it can’t compare with the nostalgia trip that is “Last Call.” The nearly 13-minute track chronicles Ye’s decade-old transition from Chicago apartment producer to Roc-A-Fella Records-signed rapper and future star. His production contributions to Jay-Z’s albums, his run-ins with businesslike A&Rs, the back and forth between Roc-A-Fella and Capitol Records…it’s all here. And it’s too compelling a story to lose this match up.</p> <p> - Sahil Parikh </p>"
+
+			},
+						{
+				matchid: 37,
+				title: "Stronger (1) vs Everything I am (8)",
+				round: 2,
+				maps: [
+					{coords: "201,446,266,498", imagemap: "full"},
+					{coords: "400,62,526,177", imagemap: "stadium"},
+				],
+				text: "<p>I still remember the exact moment, riding the Spadina streetcar, that I first heard Kanye's <em>Graduation</em> megahit “Stronger”—it earwormed its way onto my iPod with its insane rhymes (Klondike, blonde dyke? Apollonia, Isotoners?), epic Daft Punk sample and how it seemed to throb on in a loop glorious and infinite. But if Kanye has one true manifesto that sums up what he's about, it's the slow jam “Everything I Am.” Taunting all manner of barbershop gossips and awards show haters, this anthem is stronger (sorry) for its smooth, chill delivery and piano keys tinkling quietly in the background. It's a Kanye we don't see often: subtle, secure and devil-may-care, maybe because he envisioned it speaking to teenage girls taking flack in high school. Here, he doesn't need to get up in your face to remind you what you already know: His fifteen seconds is up but he got more to say. West once told a Rolling Stone reporter, \"Everything I'm not made me everything I am—that's a prophetic statement. Gandhi would have said something like that.\" Uhh... maybe. But either way, it's Kanye at his most blatantly arrogant and a prophecy for the teenage girl in all of us.</p> <p> Katherine Laidlaw </p>"
+			},
+						{
+				matchid: 38,
+				title: "Can’t Tell Me Nothing (5) vs I Wonder (13)",
+				round: 2,
+				maps: [
+					{coords: "201,522,266,569", imagemap: "full"},
+					{coords: "400,208,526,317", imagemap: "stadium"},
+				],
+				text: "<p>Two anthems from <em>Graduation</em>—one gentle and melodic, the other swaggering and nasty. I’ve always found “I Wonder” to be a bit of a slog despite its eclectic central sample (British poet and songwriter Labi Siffre’s “My Song”) and on a record with more than its share of starry-eyed ruminations, its existential questions seem a shade too vague. “Can’t Tell Me Nothing,” on the other hand, is like a guided missile targeting critics, rivals and haters, with a snotty, sing-song cadence that is both playful and hateful at the same time (the whole song is like a schoolyard taunt). “I Wonder” is an admission of confusion while “Can’t Tell Me Nothing” bristles with gold-plated certainty—the kind that money buys along with everything else. Bonus points for the music video co-starring the ever-awesome Will Oldham.</p> <p> - Adam Nayman </p>"
+			},
+						{
+				matchid: 39,
+				title: "Love Lockdown (6) Vs Flashing Lights (3)",
+				round: 2,
+				maps: [
+					{coords: "201,593,266,648", imagemap: "full"},
+					{coords: "400,354,526,475", imagemap: "stadium"},
+				],
+				text: "<p>The drumbeat alone in the 54th second of “Love Lockdown” gives this track its top 10 seeding. Ye quietly builds the distorted and dark drum and auto tune only to lift the curtain on a full marching band. I’ve always thought of the entirety of the <em> 808s</em> album as Kanye’s Newport-Dylan moment. However, rather than people booing and retrospectively calling the move genius, fans of this intentional artsy Ye-move had to sit down, listen and let it grow. It had a few typical elements but I find it nearly impossible to single out a “hit” in this complete package. This is all to say that “Flashing Lights,” off <em>Graduation</em>, takes this matchup with ease. Appearing after a rather shallow track, “Drunk and Hot Girls,” Ye does what he does best on “FL” and plays with the contrasts and dichotomy of his image. The musical buildup in each verse takes shoes, cars, and an easy life of hors d’oeuvres and slams you back to the dark backdrop of the burden accompanying fame. You think he just wants to hear Dwele’s smooth NateDogg-sounding chorus? Please, he wants you to never forget his Katrina moment on live TV. You think he just wants to tell about first class and champagne? Please, he’s got a “memory museum” and even a gd homonym when he mentions roam and Caesar (Rome?!). You can’t hear this stuff and not want to rewind and appreciate. </p> <p> - Scott Ladley </p>"
+			},
+			{
+				matchid: 40,
+				title: "Say You Will (7) vs The Good Life (2)",
+				round: 2,
+				maps: [
+					{coords: "201,669,266,724", imagemap: "full"},
+					{coords: "400,506,526,619", imagemap: "stadium"},
+				],
+				text: "<p> <em>Graduation</em> arrived, with great fanfare, as the culmination of Kanye’s worldly ambitions, a triumphant arrival at a pre-ordained destination. The third album in an ambitious trilogy was bound to be a celebration, a vindication, and an acknowledgement of just how far he had come. “Good Life” stands as an expert paean to decadence, as an exultant Kanye looks back wistfully at his early yearning for success.</p><p>We couldn’t know it then, but for ‘Ye, new yearnings were brewing. From the first track of <em>808s</em>, it was clear that his focus had shifted: now that the music world had been conquered, Kanye would be wrestling with himself. A new drama required new sounds: Auto-Tune and glacial synths would soon become hallmarks of his style, but against the lush background of his earlier work they sounded shockingly alien. “Say You Will” was a mission statement, a note-to-self as Kanye braced for his next bold departure. </p> <p>Of course, none of this would amount to much without Kanye’s innate musicality. The cadences and chord voicings of the synthetic choir, plucked straight from the canon of classical composition, sound right at home among the robotic bleeps and bloops of Kanye’s new soundworld. Listening to “Say You Will” in 2015, you can almost hear the germ of Kanye’s future work in the empty spaces between the notes.</p> <p> - Rory Lavelle </p>"
+			},
+			{
+				matchid: 41,
+				title: "Runaway (1) vs Dark Fantasy (9)",
+				round: 2,
+				maps: [
+					{coords: "1010,103,1072,162", imagemap: "full"},
+					{coords: "741,208,865,323", imagemap: "yeezy"},
+				],
+				text: "<p>“Dark Fantasy” boldly announces that Kanye West’s fifth album <em>My Beautiful Dark Twisted Fantasy</em> is his great leap forward, but “Runaway” is the album’s centrepiece and the masterpiece recording in one of the most revolutionary discographies in modern pop music. The eclectic production begins with single piano notes that illicit <em>Eyes Wide Shut</em> spine chills and ends in the moving death of android Kanye obscured by the density of his emotions. Kanye West doesn’t want to make great rap music; he wants to be make<em> Kid A</em>, he wants to make <em>Sgt. Pepper’s</em>. But it’s the lyrics of “Runaway” that make this his essential track. Kanye West has always agreed with the haters, he is an asshole. “Runaway” is an unapologetic toast to the world’s douchebags, assholes, and scumbags. We all put up with his shit and sing along. He admits this, but in a poignant turn he bares the mask and reveals that it’s all just posturing; he’s a broken person, insecure and fearful of the titular abandonment. He belongs to the same vain and materialistic world as Kardashians, but in this age of vacuous celebrities, he consistently exhibits self-awareness, self-criticism, and most importantly, sincerity. </p> <p> - Daniel Hernandez </p> "
+			},
+						{
+				matchid: 42,
+				title: "I’m in it (12) vs New Slaves (4)",
+				round: 2,
+				maps: [
+					{coords: "1010,183,1072,235", imagemap: "full"},
+					{coords: "741,359,865,464", imagemap: "yeezy"},
+				],
+				text: "<p>There are days when I convince myself  that \"I'm In It\" is one of Kanye's most fully realized and perfectly complex works. And then there are days when I think it’s just a really good song about fucking. What's certain is that \"I'm In It,\" the most challenging track on West's most challenging album, demands more of its audience than any other in the his catalogue, consistently striving to weed out the agnostics. But for those determined to struggle through the initial disharmony, the rewards are abundant. Behind the abject imagery of the lyrics, there’s a stunning refinement to the track, with West balancing the afflictive themes with some of his most visceral and striking production. </p> <p>Similarly, \"New Slaves\" falls into the category of songs that I admire for their veracity, but would still rather not play when my mom is in the car. It is West at his most authentic self; truculent to the point of alienation, but so relevant that you can’t bring yourself to press fast forward. As discordant as it is compelling, it’s more at home projected 30 feet high on the side of Wrigley Field then it is on HOT 97, and likely that was the design all along.</p> <p> - Kyle Fulton </p>"
+			},
+						{
+				matchid: 43,
+				title: "Monster (6) vs Blame Game (14)",
+				round: 2,
+				maps: [
+					{coords: "1010,261,1072,308", imagemap: "full"},
+					{coords: "741,510,865,613", imagemap: "yeezy"},
+				],
+				text: "<p>A roaring, distorted intro. Tribal, stripped-down beats. Ugly, pulsating synthesizers. “Monster” may just be Kanye’s most appropriately-named song. The numerous guest features only augment the feeling that you’re coming up against a posse of the most vicious and ruthless creatures you’ll ever have the displeasure of encountering. Rick Ross, Jay-Z, and Justin Vernon bear their monstrous selves, but it’s Nicki Minaj and her Dr. Jekyll/Mr. Hyde-esque dueling personas that hog the spotlight like a predator with its prey hanging from its fangs. The piano-driven “Blame Game” finds itself on the other end of the Yeezy spectrum. Kanye drops this crumbling heartbreak of a song with an edge of unchecked angst, and John Legend’s chorus drowns it in even more sorrow. But it’s guaranteed the win when Chris Rock shows up unexpectedly and delivers a skit that will probably go down as one of the funniest moments of Kanye’s career. There’s a reason the words “Yeezy Taught Me” found their way onto girls’ clothes and ultimately into the annals of pop culture, and that reason is “Blame Game.”</p> <p> - Sahil Parikh </p>"
+			},
+						{
+				matchid: 44,
+				title: "Blood on the Leaves (7) vs So Appalled (15)",
+				round: 2,
+				maps: [
+					{coords: "1010,328,1072,384", imagemap: "full"},
+					{coords: "741,655,865,766", imagemap: "yeezy"},
+				],
+				text: "<p>“Blood on the Leaves” is arguably not only the emotional climax of the album <em>Yeezus</em>, but in some ways it is could be seen as the climax of Kanye’s entire post-<em>Graduation</em> period. This song is Ye’s most beautiful dark and twisted fantasy, a nightmarescape of pain, sadness, and self-doubt. The Kanye we meet here feels betrayed and is full of self-pity and self-righteousness in equal measure, but he also knows exactly what he is doing. He knows how impudent he is to try and interpolate perhaps the most important and revered song about racism in American Pop Music history for the purposes of singing a breakup anthem...about your mistress...and an aborted love-child...in auto-tune. The gall of that tightrope walk is breathtaking, and the power of that juxtaposition and its audaciousness borders on blasphemous without tipping over the edge. This is not lost on the listener and it is what powers “Blood on the Leaves” and its towering horns to a victory over “So Appalled.” “Appalled” is a great, great posse cut. Memorable lines abound (and the track features some of the best work from both Jay and Pusha in years), but “Blood” may be the definitive example of what has made Ye the most iconoclastic artist of his era, which should be more than enough to edge out a victory and advance to the Sweet 16. </p> <p> - Trevor Smith </p>"
+			},
+						{
+				matchid: 45,
+				title: "Mercy (1) vs Lord, Lord, Lord (9) ",
+				round: 2,
+				maps: [
+					{coords: "1010,441,1077,500", imagemap: "full"},
+					{coords: "747,54,875,169", imagemap: "essence"},
+				],
+				text: "<p>There’s something about the moment that Kanye’s verse kicks-off on 2010 joint “Lord, Lord, Lord”, that immediately sets the song apart from his other GOOD Friday releases. The song is technically structured like a “posse cut” - four emcees, successively spitting over a minimal loop. Yet, \"posse-cut” feels like a misnomer. The musicality added to the mix by Charlie Wilson’s incredible gospel-register juxtaposed with the atmospheric and alien Swizz Beatz production, elevate “Lord, Lord, Lord” to a much higher place. Mos Def ponders his relationship with Islam, taking the song’s subject matter most literally of the four emcees, and delivering his best verse, to this day, since <em>The Ecstatic</em>. Raekwon the Chef continues to be the hood poet with a lyrical paint brush, managing to close the song with vivid scene after scene of luxe in the ghetto. The only weak part of this song, and question mark for the history books, is why Kanye decided to include Swizz Beatz’s ode to whackness. This wrinkle in “Lord, Lord, Lord”’s armour, explains how 2012 monster “Mercy” has no trouble taking this match-up. On “Mercy,” each of Pusha, Tittyboi and Ye are competitive and fierce, turning-up successively and excessively. Even Big Sean, who was otherwise in his corn-ball era, delivers a highly quoted and breezy verse. But most importantly, the song was most of the world’s introduction to 2Chainz, who steals the show with his everyman swag. While Kanye boasts of throwing “suicides on the private jet,” Tittyboi is just happy to be drinking champagne in coach on his domestic flight. That Kanye saw a germ of greatness in Chainz and gave him this early platform, will be one of “Mercy”’s all time legacies.</p> <p>- Sal Patel</p>"
+			},
+						{
+				matchid: 46,
+				title: "No Church in the Wild (5) vs Clique (4)",
+				round: 2,
+				maps: [
+					{coords: "1010,516,1077,571", imagemap: "full"},
+					{coords: "747,206,875,315", imagemap: "essence"},
+				],
+				text: "<p>An easy win for \"No Church In The Wild” although, on the surface, these songs aren’t vastly different. Both invoke membership to an insular community.  Both use James Brown samples. Both are collaborative tracks which feature Kanye & Jay-Z plus guest. The line-ups are similar in terms of appearance order, with Kanye’s verse coming in last.  It's a subtle reminder that next to him, everyone else is an opening act.</p> <p>I wanted to like “Clique” more than I do. I tossed it on my iPod like I was packing barely-worn clothes into a suitcase. Just because there’s room doesn’t mean it fits.</p> <p>“No Church In The Wild” is a song that makes me want to make bad decisions. You immediately feel yourself surrendering to its excess. That pounding beat, the clash of howls, and the undeniable superiority of Frank Ocean over Big Sean add up to give it depth and range that “Clique” doesn’t offer. On “NCITW,” Kanye takes us to the darkness of our desires in a way that makes even Bey-level exclusivity seem kinda boring in comparison.</p> <p> - Kaitlin Traynor </p>"
+			},
+						{
+				matchid: 47,
+				title: "White Dress (11) vs Otis (3)",
+				round: 2,
+				maps: [
+					{coords: "1010,594,1077,645", imagemap: "full"},
+					{coords: "747,360,875,464", imagemap: "essence"},
+				],
+				text: "<p>By most accounts, “White Dress” has one of Yeezy's top-shelf lyrical deliveries: A soulful, driving beat produced by Ye and RZA that lifts up and down ever so gently is the background for his recounting of a hot minute when he returns home to bae and tries to press the reset button on of his past transgressions (and maybe get married?). But there’s just no denying the penultimate production and signature Kanye playfulness of “Otis.” Reinventing a classic soul song and turning Harlem’s Apollo Theater alumni into Chicago’s own? That’s Kanye’s raw, panting, swag-so-hard essence. You most certainly remember how you felt when you first heard “Otis,” and you most certainly wanted to jump straight out of your chair and astro-glide backwards to Otis Redding’s scream in the final bars. Although thematically there’s nothing groundbreaking being said here (and admittedly, the combined star power of Jay and Ye can at at times be nauseating to think about), “Otis” sinks the buzzer beater on “White Dress” with it’s multimodal soul production and unlimited excess. </p> <p> - Aaron Ries </p>"
+			},
+						{
+				matchid: 48,
+				title: "Chain Heavy (10) vs Niggas in Paris (2)",
+				round: 2,
+				maps: [
+					{coords: "1010,669,1077,724", imagemap: "full"},
+					{coords: "747,511,875,622", imagemap: "essence"},
+				],
+				text: "<p>Don’t get me wrong. “Chain Heavy” is one of Kanye's great unknown songs, a puzzling Treehouse of Horror-dripped track that lyrically manipulates fashion metaphors and symbols to great political effect. Is this heavy chain a burden or a potential weapon? Is it both?</p> <p>Yet, it’s hard to deny the power of a track so omnipresent that it was the last song played at every party in 2011 and, realistically, 2012. “Niggas In Paris” employs not one but three of Kanye’s classic flourishes; the mouth sound as an exclamatory effect, deliberate word mispronunciation, and an auto-tuned production set-up. And anyway, a song that gets more exciting as you hear it again and again? It’s a capitalist pop music miracle. Thank you Yeezus. (And Jay Hova too.)</p> <p>- Jess Carroll</p>"
+			}
+
 	];
 	return annarray;
 })();
