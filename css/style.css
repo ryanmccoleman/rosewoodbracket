@@ -34,6 +34,11 @@ area {
   color: #fff;
 }
 
+#basic-lightbox.final-round {
+  height: 500px;
+  overflow-y: scroll;
+}
+
 .light-border {
 	border: 10px solid white;
 }

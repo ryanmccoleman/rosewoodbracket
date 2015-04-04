@@ -52,8 +52,12 @@ AnnotationClass.prototype = {
 	},
 	showAnnotation: function(matchid) {
 		this.openLightBox();
+		$("#basic-lightbox").removeClass("final-round");
 		var annotElem = "<h2>"+this.getMatchObj(matchid).title+"</h2>"+this.getMatchObj(matchid).text;
 		$(".pop-content").empty().append(annotElem);
+		if(matchid == 63) {
+			$("#basic-lightbox").addClass("final-round");
+		}
 
 	},
 	getMatchObj: function(matchid) {
