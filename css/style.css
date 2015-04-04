@@ -32,11 +32,15 @@ area {
   z-index: 1000;
   width: 550px;
   color: #fff;
+  max-height: 500px;
 }
 
 #basic-lightbox.final-round {
   height: 500px;
-  overflow-y: scroll;
+}
+
+#basic-lightbox.final-round .pop-content {
+  height: 475px;
 }
 
 .light-border {
@@ -51,6 +55,8 @@ area {
   text-align: justify;
   text-justify: inter-word;
   font-size: 12px;
+  overflow-y: scroll;
+  max-height: 475px;
 }
 
 .pop-content h2 {
